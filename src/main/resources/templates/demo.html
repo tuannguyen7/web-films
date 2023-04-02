@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<!-- dòng này tương tự như import lib để sử dụng. Thymleaf sẽ đọc file này va generate ra file HTML
+    xmlns:th="http://www.thymeleaf.org" => để dùng được th:text ơ line 12
+-->
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Register user</title>
+</head>
+<body>
+    <h1 th:text="'Hello ' + ${user.name}" ></h1>
+</body>
+</html>
